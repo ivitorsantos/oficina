@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="menu">
+            <button onclick="openModal()">Definir Meta</button>
+        </div>
+
+        <div class="water-content">
+            <h2>Você tomou</h2>
+            <div class="water-view" id="circle">
+                <span id="bebido">0 ml</span>
+            </div>
+            <div class="water-bar">
+                <span id="bar">Meta diaria</span>
+            </div>
+            <div class="water-buttons">
+                <button onclick="bebeu()">Adicionar Agua</button>
+                <select name="" id="tamanho-copo">
+                    <option value="100">100 ml</option>
+                    <option value="200" selected>200 ml</option>
+                    <option value="250">250 ml</option>
+                    <option value="300">300 ml</option>
+                    <option value="500">500 ml</option>
+                    <option value="1000">1000 ml</option>
+                </select>
+            </div>
+
+        </div>
+
+
+        <div class="modal-meta" id="modal-meta">
+            <div class="modal-content">
+                <span id="close"  onclick="closeModal()">X</span>
+                <h2>Definir Meta</h2>
+                <input type="number" placeholder="Digite seu peso corporal em KG" id="pesoCorporal">
+                <button onclick="definirMeta()">Definir Meta</button>
+                <span id="valor-meta"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/config.js"></script>
+</body>
+
+</html>
