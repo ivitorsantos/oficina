@@ -13,7 +13,10 @@ Aqui você vai encontrar esses 3 conteúdos, que me servem um grande banquete de
 ## 1- Beba Água 1.0
   Projeto pessoal feito para definir a quantidade de agua que eu preciso por dia e controlar a quantidade de agua que eu ingeri durante o dia. A cada dia novo ele reseta a quantidade ingerida.
   
- **Usado**
+  **Demostração:** https://peaceful-sable-d94a60.netlify.app/
+
+
+**Usado**
  - Html 
  - Css 
  - Javascript
