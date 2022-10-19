@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border:border
+}
+
+body {
+    background: #1a1d45;
+    background: linear-gradient(35deg, #1a1d45 0%, rgb(11, 15, 36) 100%);
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    color: #fff;
+
+    text-align: center;
+}
+
+.logo img {
+    width: 69%;
+    margin-bottom: 15px;
+}
+
+.generator input {
+    width: 70%;
+
+}
+
+.generator button {
+    width: 70%;
+    margin-bottom: 15px;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 5px 0px;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+
+    background-color: rgb(30, 90, 211);
+}
+
+.password {
+    font-size: 14px;
+    background-color: #242858;
+    padding: 15px 0px;
+
+    width: 70%;
+    height: 60px;
+
+    margin: auto;
+
+    border-radius: 5px;
+    
+}
+
+
+#generatedPassword:hover{
+    cursor: pointer;
+}
+
+.generator button:hover {
+    cursor: pointer;
+    background-color: rgb(21, 67, 160);
+}
+
+.generator input:hover {
+    cursor: pointer;
+}
