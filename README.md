@@ -25,3 +25,20 @@ Aqui você vai encontrar esses 3 conteúdos, que me servem um grande banquete de
 
 > Versão 1.0 é a que eu sento em frente o computadora e resolvo o
 > problema, em breve a versão 2.0 com todo o codigo refatorado.
+
+
+# 
+## 2- Gerador de Senha 1.0
+  Projeto pessoal feito para gerar senhas aleatorias.
+  
+  **Demostração:** https://lovely-douhua-8e826b.netlify.app/
+
+
+**Usado**
+ - Html 
+ - Css 
+ - Javascript
+ 
+
+> Versão 1.0 é a que eu sento em frente o computadora e resolvo o
+> problema, em breve a versão 2.0 com todo o codigo refatorado.
